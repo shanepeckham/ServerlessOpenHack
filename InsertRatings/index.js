@@ -46,7 +46,7 @@ module.exports = function (context, req) {
         });
 
         db.collection(process.env.CosmosCollection).insert(req.body);
-        context.log("Inserted a ratings update into collection - " + req.body);
+        context.log("Inserted a ratings update into collection and run CI in Staging - " + req.body);
         context.res = {
             status: 200,
             body: req.body
