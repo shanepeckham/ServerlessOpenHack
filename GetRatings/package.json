@@ -1,0 +1,19 @@
+{
+  "name": "getratings",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "scripts": {
+    "lint": "jshint --show-non-errors .",
+    "test": "npm -s run lint"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mongodb": "^3.0.8"
+  }
+}
